@@ -6,4 +6,5 @@ MAINTAINER Your Name
 #the usage of /app is interesting, not sure where that directory actually is
 ADD . /app
 WORKDIR /app
+RUN pip install --upgrade pip
 RUN pip install --requirement ./requirements.txt
