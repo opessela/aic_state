@@ -11,7 +11,7 @@ build:
 
 publish:
     docker:
-        repo: $$DOCKER_USERNAME/aic_state
+        repo: $$DOCKER_USERNAME/"aic_state"
         tag: latest
         username: $$DOCKER_USERNAME
         password: $$DOCKER_PASSWORD
